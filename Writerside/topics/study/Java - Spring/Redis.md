@@ -1,6 +1,6 @@
 # Redis
 
-![Pasted image 20240908232529.png](../etc/Image/Pasted image 20240908232529.png)
+![Pasted image 20240908232529.png](../../etc/Image/Pasted%20image%2020240908232529.png)
 
 Redis(Remote Dictionary Storage,레디스)는 모든 데이터를 메모리에 저장하고 조회하는 in-memory DB, 모든 데이터를 메모리로 불러와서 처리하는 메모리 기반의 key-value 구조의 데이터 관리 시스템(DBMS)이다. 일종의 NoSQL
 
@@ -35,11 +35,11 @@ NoSQL & Cache 솔루션이며 메모리 기반으로 구성된다. 명시적으�
 
 ### 맴캐시드와 레디스 비교!
 
-![Pasted image 20240908232706.png](../etc/Image/Pasted image 20240908232706.png)
+![Pasted image 20240908232706.png](../../etc/Image/Pasted%20image%2020240908232706.png)
 
 ## 5가지형 자료구조를 지원
 
-![Pasted image 20240908232722.png](../etc/Image/Pasted image 20240908232722.png)
+![Pasted image 20240908232722.png](../../etc/Image/Pasted%20image%2020240908232722.png)
 
 > Redis가 지원하는 데이터 형식은 String, Set, Sorted, Hash, List가 있다.
 
@@ -139,7 +139,7 @@ jemalloc을 사용하기 때문에 매번 malloc과 free를 통해서 메모리 
 
 ## 캐싱 전략:Look Aside ( = Lazy Loading )
 
-![Pasted image 20240908232756.png](../etc/Image/Pasted image 20240908232756.png)
+![Pasted image 20240908232756.png](../../etc/Image/Pasted%20image%2020240908232756.png)
 
 
 캐시를 옆에 두고 필요할 때만 데이터를 캐시에 로드하는 전략이다. ( key-value 형태로 저장됨 )
