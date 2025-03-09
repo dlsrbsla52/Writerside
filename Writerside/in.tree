@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE instance-profile
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
+
+<instance-profile id="in"
+                 name="Instance Name" start-page="인덱스_개요.md">
+
+    <toc-element toc-title="DB">
+        <toc-element topic="커버링_인덱스(Covering_Index).md"/>
+        <toc-element topic="인덱스_개요.md"/>
+        <toc-element toc-title="BigQuery">
+            <toc-element toc-title="쿼리">
+                <toc-element topic="클라우드_일자별_첫결재_카운트.md"/>
+                <toc-element topic="클라우드_유사문항_클릭_트레킹_쿼리.md"/>
+                <toc-element topic="빅쿼리_비용_카운트.md"/>
+                <toc-element topic="공유하기_기능_OKR_지표.md"/>
+                <toc-element topic="AOS_IOS_사용량_비교.md"/>
+            </toc-element>
+            <toc-element toc-title="테스트 Json">
+                <toc-element topic="BigQuery_Post-Json{DEV_APP_버전}.md"/>
+                <toc-element topic="AOS_APP_테스트 JSON.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element toc-title="MsSql">
+            <toc-element toc-title="I-System">
+                <toc-element toc-title="문항 동기화">
+                    <toc-element topic="MsSql_문항_동기화_서브_테이블_쿼리.md"/>
+                    <toc-element topic="MsSql_문항_동기화_메인_테이블_쿼리.md"/>
+                    <toc-element topic="MsSql_동기화_체크_쿼리.md"/>
+                </toc-element>
+            </toc-element>
+            <toc-element toc-title="zocbo.com">
+                <toc-element topic="zocbo.com_리워드.md"/>
+            </toc-element>
+        </toc-element>
+        <toc-element toc-title="PostgreSql">
+            <toc-element toc-title="tms">
+                <toc-element topic="PostgreSql_락_확인_및_kill.md"/>
+                <toc-element toc-title="문항 동기화">
+                    <toc-element topic="TMS_문항_동기화_확인_쿼리.md"/>
+                    <toc-element topic="TMS_문항_동기화_처리_쿼리.md"/>
+                </toc-element>
+            </toc-element>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="etc">
+        <toc-element toc-title="개발툴">
+            <toc-element topic="Gradle로_스프링_실행시키기.md"/>
+        </toc-element>
+        <toc-element toc-title="놀러가기">
+            <toc-element topic="글램핑.md"/>
+        </toc-element>
+        <toc-element toc-title="정처기">
+            <toc-element topic="2024년_2회_정보처리기사_실기_복원_문제.md"/>
+            <toc-element topic="2024년_1회_정보처리기사_실기_복원_문제.md"/>
+            <toc-element topic="2023년_3회_정보처리기사_실기_복원_문제.md"/>
+            <toc-element topic="2023년_2회_정보처리기사_실기_복원_문제.md"/>
+            <toc-element topic="2023년_1회_정보처리기사_실기_복원_문제.md"/>
+            <toc-element topic="2022년_3회_정보처리기사_실기_복원_문제.md"/>
+            <toc-element topic="2022년_2회_정보처리기사_실기_복원_문제.md"/>
+        </toc-element>
+        <toc-element toc-title="케이스 노트">
+            <toc-element topic="Nginx_Temp_권한_변경.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="Java - Spring">
+        <toc-element topic="헥사고날_아키텍쳐.md"/>
+        <toc-element topic="팩토리_메소드(fectory_method).md"/>
+        <toc-element topic="컴파일_과정.md"/>
+        <toc-element topic="제네릭.md"/>
+        <toc-element topic="접근_제어자의_종류와_특징.md"/>
+        <toc-element topic="자바_컨슈머.md"/>
+        <toc-element topic="스프링 싱글톤(SingleTon)_패턴의_동시성_해결.md"/>
+        <toc-element topic="스프링_빈_생명주기.md"/>
+        <toc-element topic="리플렉션(Reflection).md"/>
+        <toc-element topic="람다_표현식(축약).md"/>
+        <toc-element topic="Thread-Safe.md"/>
+        <toc-element topic="synchronized_원리.md"/>
+        <toc-element topic="String이_불변객체인_이유.md"/>
+        <toc-element topic="String_VS_StringBuilder_VS_StringBuffer.md"/>
+        <toc-element topic="Spring_DispatcherServlet_와_AOP_개념_및_차이.md"/>
+        <toc-element topic="Redis.md"/>
+        <toc-element topic="OverLoading_VS_Overriding.md"/>
+        <toc-element topic="OOP의_원리와_4가지_특징.md"/>
+        <toc-element topic="OOP_원칙_(SOLID).md"/>
+        <toc-element topic="Map.Entry_인터페이스.md"/>
+        <toc-element topic="List.of_vs_Arrays.asList.md"/>
+        <toc-element topic="JWT.md"/>
+        <toc-element topic="JVM의_구조.md"/>
+        <toc-element topic="Java_Call_by_Value,_Call_by_Reference.md"/>
+        <toc-element topic="Iterable,_Iterator.md"/>
+        <toc-element topic="IOC,_ID_설명.md"/>
+        <toc-element topic="hashCode().md"/>
+        <toc-element topic="Functional_Interface.md"/>
+        <toc-element topic="equals().md"/>
+        <toc-element topic="checkedException[VS]uncheckedException.md"/>
+        <toc-element topic="@Repository_어노테이션.md"/>
+        <toc-element topic="@Email_어노테이션.md"/>
+        <toc-element toc-title="알고리즘">
+            <toc-element topic="페이지_번호.md"/>
+            <toc-element topic="Snowflake_알고리즘.md"/>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="업무 메뉴얼">
+        <toc-element toc-title="문항 동기화">
+            <toc-element topic="문항_동기화_메뉴얼.md"/>
+        </toc-element>
+        <toc-element toc-title="업무일지">
+            <toc-element toc-title="2024">
+                <toc-element toc-title="10월">
+                    <toc-element topic="20241030_업무일지.md"/>
+                    <toc-element topic="20241029_업무일지.md"/>
+                    <toc-element topic="20241028_업무일지.md"/>
+                    <toc-element topic="20241025_업무일지.md"/>
+                    <toc-element topic="20241024_업무일지.md"/>
+                    <toc-element topic="20241023_업무일지.md"/>
+                    <toc-element topic="20241022_업무일지.md"/>
+                    <toc-element topic="20241016_업무일지.md"/>
+                    <toc-element topic="20241015_업무일지.md"/>
+                    <toc-element topic="20241014_업무일지.md"/>
+                    <toc-element topic="20241008_업무일지.md"/>
+                    <toc-element topic="20241007_업무일지.md"/>
+                    <toc-element topic="20241004_업무일지.md"/>
+                    <toc-element topic="20241002_업무일지.md"/>
+                </toc-element>
+                <toc-element toc-title="11월">
+                    <toc-element topic="20241128_업무일지.md"/>
+                    <toc-element topic="20241126_업무일지.md"/>
+                    <toc-element topic="20241125_업무일지.md"/>
+                    <toc-element topic="20241118_업무일지.md"/>
+                    <toc-element topic="20241115_업무일지.md"/>
+                    <toc-element topic="20241114_업무일지.md"/>
+                    <toc-element topic="20241112_~_13_업무일지_pm.md"/>
+                    <toc-element topic="20241107_업무일지.md"/>
+                    <toc-element topic="20241106_업무일지.md"/>
+                    <toc-element topic="20241105_업무일지.md"/>
+                    <toc-element topic="20241104_업무일지.md"/>
+                    <toc-element topic="20241101_업무일지.md"/>
+                </toc-element>
+                <toc-element toc-title="12월">
+                    <toc-element topic="20241220_업무일지.md"/>
+                    <toc-element topic="20241219_업무일지.md"/>
+                    <toc-element topic="20241218_업무일지.md"/>
+                    <toc-element topic="20241217_업무일지.md"/>
+                    <toc-element topic="20241216_업무일지.md"/>
+                    <toc-element topic="20241209_업무일지.md"/>
+                    <toc-element topic="20241204_업무일지.md"/>
+                    <toc-element topic="20241203_업무일지.md"/>
+                    <toc-element topic="20241202_업무일지.md"/>
+                </toc-element>
+                <toc-element toc-title="9월">
+                    <toc-element topic="20240930_업무일지.md"/>
+                    <toc-element topic="20240926_업무일지.md"/>
+                    <toc-element topic="20240925_업무일지.md"/>
+                    <toc-element topic="20240923_업무일지.md"/>
+                    <toc-element topic="20240920_업무일지.md"/>
+                    <toc-element topic="20240919_업무일지.md"/>
+                    <toc-element topic="20240912_업무일지.md"/>
+                    <toc-element topic="20240910_업무일지.md"/>
+                    <toc-element topic="20240909_업무일지.md"/>
+                    <toc-element topic="20240906_업무일지.md"/>
+                    <toc-element topic="20240905_업무일지.md"/>
+                </toc-element>
+            </toc-element>
+            <toc-element toc-title="2025">
+                <toc-element toc-title="1월">
+                    <toc-element topic="20250124_업무일지.md"/>
+                    <toc-element topic="20250123_업무일지.md"/>
+                    <toc-element topic="20250122_업무일지.md"/>
+                    <toc-element topic="20250120_업무일지.md"/>
+                    <toc-element topic="20250117_업무일지.md"/>
+                    <toc-element topic="20250114_업무일지.md"/>
+                    <toc-element topic="20250113_업무일지.md"/>
+                    <toc-element topic="20250110_업무일지.md"/>
+                </toc-element>
+                <toc-element toc-title="2월">
+                    <toc-element topic="20250223~28_업무일지.md"/>
+                    <toc-element topic="20250221_업무일지.md"/>
+                    <toc-element topic="20250220_업무일지.md"/>
+                    <toc-element topic="20250219_업무일지.md"/>
+                    <toc-element topic="20250218_업무일지.md"/>
+                    <toc-element topic="20250217_업무일지.md"/>
+                    <toc-element topic="20250213_업무일지.md"/>
+                    <toc-element topic="20250212_업무일지.md"/>
+                    <toc-element topic="20250211_업무일지.md"/>
+                    <toc-element topic="20250210_업무일지.md"/>
+                    <toc-element topic="20250207_업무일지.md"/>
+                    <toc-element topic="20250206_업무일지.md"/>
+                    <toc-element topic="20250205_업무일지.md"/>
+                    <toc-element topic="20250204_업무일지.md"/>
+                    <toc-element topic="20250203_업무일지.md"/>
+                </toc-element>
+            </toc-element>
+        </toc-element>
+    </toc-element>
+    <toc-element toc-title="업무 상세">
+        <toc-element toc-title="문제 은행 시스템 운영 및 개발">
+            <toc-element topic="24-03_~_24-06)_시험지,_정답지_분리_시스템_개발.md"/>
+            <toc-element topic="23-11)_Admin_시험지_자동_저장_시스템_개발.md"/>
+            <toc-element topic="23-10)_Staging_서버_구축.md"/>
+            <toc-element topic="23-09)_ISBN(출판물_고유번호)_관리_시스템_개발.md"/>
+            <toc-element topic="23-06_~_23-08)_시험지_저장_중복_체크_및_통계_시스템_개발.md"/>
+            <toc-element topic="23-03_~_24-07)_문항_추출_고도화.md"/>
+            <toc-element topic="23-01_~_23-02)_서비스_중지_학교_연동_프로세스_개발.md"/>
+            <toc-element topic="22-07_~_22-09)_시험지_추출_기준_변경_프로세스_개발.md"/>
+            <toc-element topic="20-09_~_24-07)_HWP_Controller_개발.md"/>
+        </toc-element>
+    </toc-element>
+</instance-profile>

@@ -1,0 +1,43 @@
+# AOS - IOS 사용량 비교
+
+### 일자별, 사용자 DAU(daily active user)Count
+
+```sql
+SELECT REG_DT_MONTH, REG_DT_YMD, OS_TYPE, APP_VERSION, COUNT(DISTINCT USER_ID) AS DAU
+FROM `data.TB_TRACKING_LOG*`
+WHERE SERVICE_TYPE_CD in (3)
+  AND IS_LOGIN_CD = 1
+  AND USER_ID NOT IN (
+    SELECT USER_ID FROM `data.TB_ZOCBO_STAFF`
+  )
+  -- AND APP_VERSION in ('3.0.0(1)', '3.0.0(2)', '3.0.0(3)', '3.0.0(4)', '3.0.0(5)', '3.0.0(6)', '3.0.0')
+GROUP BY REG_DT_MONTH, REG_DT_YMD, OS_TYPE, APP_VERSION
+ORDER BY REG_DT_MONTH, REG_DT_YMD, OS_TYPE, APP_VERSION;
+```
+
+
+### webView 포함 집계
+```sql
+WITH unique_users AS (  
+    SELECT REG_DT_YMD, USER_ID,  
+           CASE  
+               WHEN SERVICE_TYPE_CD = 3 THEN 'APP'  
+               WHEN SERVICE_TYPE_CD = 4 THEN 'WEB_VIEW'  
+           END AS SERVICE_TYPE,  
+           OS_TYPE, APP_VERSION  
+    FROM data.TB_TRACKING_LOG_202409  
+    WHERE  
+        REG_DT_YMD IN ('20240907', '20240908'  )  
+      AND SERVICE_TYPE_CD IN (3, 4)  
+      AND IS_LOGIN_CD = 1  
+      AND USER_ID NOT IN (  
+        SELECT USER_ID FROM `data.TB_ZOCBO_STAFF`  
+    )  
+)  
+SELECT REG_DT_YMD, OS_TYPE, APP_VERSION, COUNT(DISTINCT USER_ID) AS DAU  
+FROM unique_users  
+GROUP BY REG_DT_YMD, OS_TYPE, APP_VERSION  
+ORDER BY REG_DT_YMD, OS_TYPE, APP_VERSION;
+```
+
+
